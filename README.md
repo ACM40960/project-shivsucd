@@ -14,7 +14,7 @@
   <img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-blue.svg">
 </p>
 
-Breast cancer is a leading cause of mortality among women globally, making early detection crucial for effective treatment. This project leverages machine learning and deep learning techniques to enhance the accuracy of breast cancer detection. By utilizing the Wisconsin Breast Cancer dataset and the BreaKHis 400X dataset, the project focuses on classifying breast tumor images and analyzing cell nuclei characteristics to predict malignancy. By analyzing two distinct datasets— the **Wisconsin Breast Cancer dataset** and the **BreakHis400x Image Dataset**, this project aims to classify breast tumor images and predict malignancy based on cell nuclei characteristics, respectively.
+Welcome to the **Prediction of Breast Cancer Incidence** project repository! This project leverages machine learning and deep learning techniques to enhance the accuracy of breast cancer detection. By analyzing two distinct datasets— the **Wisconsin Breast Cancer dataset** and the **BreakHis400x Image Dataset**, this project aims to classify breast tumor images and predict malignancy based on cell nuclei characteristics.
 
 <p align="center">
   <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Normal_VS_Cancer_Defined.jpg">
@@ -24,7 +24,7 @@ Breast cancer is a leading cause of mortality among women globally, making early
 
 ## Table of Contents 📑
 - [Project Overview](#project-overview)
-- [Features](#features)
+- [Project Highlights](#project-highlights)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Datasets](#datasets)
@@ -44,11 +44,11 @@ Breast cancer remains a leading cause of mortality among women globally, making 
 
 By analyzing the visual characteristics of cell structures and applying deep learning techniques, this project aims to enhance early detection capabilities and support medical diagnosis.
 
-## Features
+## Project Highlights
 
-- **Multi-Model Approach**: Evaluation and comparison of various machine learning models including Random Forest, Logistic Regression, K-Nearest Neighbors (KNN), and Neural Networks on the Wisconsin dataset.
-- **Deep Learning with DenseNet**: Use of DenseNet CNN architecture for classifying images from the BreakHis400x dataset as benign or malignant.
-- **Comprehensive Model Evaluation**: Detailed analysis of model performance with metrics such as accuracy, precision, recall, F1 score, and confusion matrices.
+- **Multi-Model Approach**: Various machine learning models including Random Forest, Logistic Regression, K-Nearest Neighbors (KNN), and Neural Networks on the Wisconsin dataset have been evaluated and compared to obtain the best performing model.
+- **Deep Learning with DenseNet**: The DenseNet CNN architecture has been used for classifying images from the BreakHis400x dataset as benign or malignant.
+- **Exploratory Data Analysis**: Detailed Exploratory data analysis on the Wisconsin Dataset has been performed as shown below:
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/correlation_heatmap.png" alt="Correlation Heatmap">
   </p>
@@ -58,6 +58,10 @@ By analyzing the visual characteristics of cell structures and applying deep lea
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/newplot (1).png" alt="Symmetry, Fractal Dimension, and Concavity measures by Diagnosis">
   </p>
+  <p align="center">
+    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/12.png" alt="Perimeter, Smoothness, and Texture measures by Diagnosis">
+  </p>
+  
 - **Scalability**: The project is designed to be scalable for future improvements, including the integration of more diverse datasets and the exploration of ensemble methods.
 
 ## Installation
