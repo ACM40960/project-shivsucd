@@ -35,7 +35,7 @@ Breast cancer is a leading cause of mortality among women globally, making early
 - [References](#references)
 - [Data Sources](#data-sources)
 - [Authors](#authors)
-- [Streamlit Demonstration of the Project] (#demonstration)
+- [Streamlit Demonstration of the Project](#demonstration)
 - [Poster](#poster)
 
 ## Project Overview 
