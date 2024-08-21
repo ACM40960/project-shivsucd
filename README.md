@@ -61,7 +61,20 @@ By analyzing the visual characteristics of cell structures and applying deep lea
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/12.png" alt="Perimeter, Smoothness, and Texture measures by Diagnosis">
   </p>
+  <p align="center">
+    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/x.png" alt="Distribution Plot of the Target Variable">
+  </p>
+
+- **Exploratory Data Analysis**: Detailed Exploratory data analysis on the BreaHis400x Dataset has been performed as shown below:
+  ### Non-Cancerous Cell Image
+  <p align="center">
+    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Finalized_Benign.png" alt="Non-Cancerous Cell Image">
+  </p>
   
+  ### Cancerous Cell Image
+  <p align="center">
+    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Finalized_Malignant.png" alt="Cancerous Cell image">
+  </p>
 - **Scalability**: The project is designed to be scalable for future improvements, including the integration of more diverse datasets and the exploration of ensemble methods.
 
 ## Installation
@@ -138,10 +151,17 @@ Contributions are welcome! If you have ideas for improving this project or want 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## References
+1. Arnold, M., Morgan, E., Rumgay, H., Mafra, A., Singh, D., Laversanne, M., Vignat, J., Gralow, J. R., Cardoso, F., Siesling, S. et al. (2022). Current and future burden of breast cancer: Global statistics for 2020 and 2040, The Breast 66: 15–23.
 
-1. Arnold, M., Morgan, E., Rumgay, H., et al. (2022). Current and future burden of breast cancer: Global statistics for 2020 and 2040. *The Breast*, 66, 15–23.
-2. Huang, J., Chan, P. S., Lok, V., et al. (2021). Global incidence and mortality of breast cancer: a trend analysis. *Aging (Albany NY)*, 13(4), 5748.
-3. Spanhol, F. A., Oliveira, L. S., Petitjean, C., & Heutte, L. (2016). A Dataset for Breast Cancer Histopathological Image Classification. *IEEE Transactions on Biomedical Engineering*, 63(7), 1455-1462.
+2. Huang, J., Chan, P. S., Lok, V., Chen, X., Ding, H., Jin, Y., Yuan, J., Lao, X.-q., Zheng, Z.-J. and Wong, M. C. (2021). Global incidence and mortality of breast cancer: a trend analysis, Aging (Albany NY) 13(4): 5748. 
+
+3. Hussain, S., Ali, M., Naseem, U., Nezhadmoghadam, F., Jatoi, M. A., Gulliver, T. A. and Tamez-Pe˜na, J. G. (2024). Breast cancer risk prediction using machine learning: a systematic review, Frontiers in Oncology 14: 1343627. 
+
+4. Muller, F. M., Li, E. J., Daube-Witherspoon, M. E., Vanhove, C., Vandenberghe, S., Pantel, A. R. and Karp, J. S. (2024). Deep learning denoising for low-dose dual-tracer protocol with 18f-fgln and 18f-fdg in breast cancer imaging, Annual Meeting of the Society of Nuclear Medicine and Molecular Imaging.
+
+5. FA Spanhol, LS Oliveira, C. Petitjean and L. Heutte, "A Dataset for Breast Cancer Histopathological Image Classification," in IEEE Transactions on Biomedical Engineering, vol. 63, no. 7, pp. 1455-1462, July 2016, doi: 10.1109 / TBME.2015.2496264.
+
+6. Machine Learning Algorithms For Breast Cancer Prediction And Diagnosis: Mohammed Amine Naji , Sanaa El Filali , Kawtar Aarika , EL Habib Benlahmar , Rachida Ait Abdelouhahid , Olivier Debauche.
 
 ## Data Sources
 
