@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="10%" src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/background.png">
+  <img width="10%" src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/bck.jpg">
 </p>
 
 <h1 align="center">
@@ -11,14 +11,13 @@
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/python-v3.11.4+-red.svg">
   <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-v2.9.1+-orange.svg">
-  <img alt="Dependencies" src="https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg">
   <img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-blue.svg">
 </p>
 
-Welcome to the **Prediction of Breast Cancer Incidence** project repository! This project leverages machine learning and deep learning techniques to enhance the accuracy of breast cancer detection. By analyzing two distinct datasets— the **Wisconsin Breast Cancer dataset** and the **BreakHis400x Image Dataset**, this project aims to classify breast tumor images and predict malignancy based on cell nuclei characteristics.
+Breast cancer is a leading cause of mortality among women globally, making early detection crucial for effective treatment. This project leverages machine learning and deep learning techniques to enhance the accuracy of breast cancer detection. By utilizing the Wisconsin Breast Cancer dataset and the BreaKHis 400X dataset, the project focuses on classifying breast tumor images and analyzing cell nuclei characteristics to predict malignancy. By analyzing two distinct datasets— the **Wisconsin Breast Cancer dataset** and the **BreakHis400x Image Dataset**, this project aims to classify breast tumor images and predict malignancy based on cell nuclei characteristics, respectively.
 
 <p align="center">
-  <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/breast_cancer_cells.gif">
+  <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Normal_VS_Cancer_Defined.jpg">
 </p>
 
 **Note**: It is recommended to view this README in light mode for better graph visibility.
@@ -36,6 +35,7 @@ Welcome to the **Prediction of Breast Cancer Incidence** project repository! Thi
 - [References](#references)
 - [Data Sources](#data-sources)
 - [Authors](#authors)
+- [Streamlit Demonstration of the Project] (#demonstration)
 - [Poster](#poster)
 
 ## Project Overview 
@@ -146,7 +146,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Authors
 
-- **Shivani - 23200782**: Developer and Data Scientist
+- **Shivani - 23200782**: MSc Data and Computational Science, UCD, Dublin
+
+## Demonstration
+
+- Please find the link for the Streamlit Application to test the functionality here: [Prediction of Breast Cancer Incidence] (https://breast-cancer-incidence-prediction-shivs-ucd.streamlit.app)
 
 ## Poster
 
