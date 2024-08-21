@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="10%" src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/background.png">
+  <img width="10%" src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/bck.jpg">
 </p>
 
 <h1 align="center">
@@ -11,21 +11,20 @@
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/python-v3.11.4+-red.svg">
   <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-v2.9.1+-orange.svg">
-  <img alt="Dependencies" src="https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg">
   <img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-blue.svg">
 </p>
 
 Welcome to the **Prediction of Breast Cancer Incidence** project repository! This project leverages machine learning and deep learning techniques to enhance the accuracy of breast cancer detection. By analyzing two distinct datasets— the **Wisconsin Breast Cancer dataset** and the **BreakHis400x Image Dataset**, this project aims to classify breast tumor images and predict malignancy based on cell nuclei characteristics.
 
 <p align="center">
-  <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/breast_cancer_cells.gif">
+  <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Normal_VS_Cancer_Defined.jpg">
 </p>
 
 **Note**: It is recommended to view this README in light mode for better graph visibility.
 
 ## Table of Contents 📑
 - [Project Overview](#project-overview)
-- [Features](#features)
+- [Project Highlights](#project-highlights)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Datasets](#datasets)
@@ -36,6 +35,7 @@ Welcome to the **Prediction of Breast Cancer Incidence** project repository! Thi
 - [References](#references)
 - [Data Sources](#data-sources)
 - [Authors](#authors)
+- [Streamlit Demonstration of the Project](#demonstration)
 - [Poster](#poster)
 
 ## Project Overview 
@@ -44,11 +44,11 @@ Breast cancer remains a leading cause of mortality among women globally, making 
 
 By analyzing the visual characteristics of cell structures and applying deep learning techniques, this project aims to enhance early detection capabilities and support medical diagnosis.
 
-## Features
+## Project Highlights
 
-- **Multi-Model Approach**: Evaluation and comparison of various machine learning models including Random Forest, Logistic Regression, K-Nearest Neighbors (KNN), and Neural Networks on the Wisconsin dataset.
-- **Deep Learning with DenseNet**: Use of DenseNet CNN architecture for classifying images from the BreakHis400x dataset as benign or malignant.
-- **Comprehensive Model Evaluation**: Detailed analysis of model performance with metrics such as accuracy, precision, recall, F1 score, and confusion matrices.
+- **Multi-Model Approach**: Various machine learning models including Random Forest, Logistic Regression, K-Nearest Neighbors (KNN), and Neural Networks on the Wisconsin dataset have been evaluated and compared to obtain the best performing model.
+- **Deep Learning with DenseNet**: The DenseNet CNN architecture has been used for classifying images from the BreakHis400x dataset as benign or malignant.
+- **Exploratory Data Analysis**: Detailed Exploratory data analysis on the Wisconsin Dataset has been performed as shown below:
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/correlation_heatmap.png" alt="Correlation Heatmap">
   </p>
@@ -57,6 +57,23 @@ By analyzing the visual characteristics of cell structures and applying deep lea
   </p>
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/newplot (1).png" alt="Symmetry, Fractal Dimension, and Concavity measures by Diagnosis">
+  </p>
+  <p align="center">
+    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/12.png" alt="Perimeter, Smoothness, and Texture measures by Diagnosis">
+  </p>
+  <p align="center">
+    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/x.png" alt="Distribution Plot of the Target Variable">
+  </p>
+
+- **Exploratory Data Analysis**: Detailed Exploratory data analysis on the BreaHis400x Dataset has been performed as shown below:
+  ### Non-Cancerous Cell Image
+  <p align="center">
+    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Finalized_Benign.png" alt="Non-Cancerous Cell Image">
+  </p>
+  
+  ### Cancerous Cell Image
+  <p align="center">
+    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Finalized_Malignant.png" alt="Cancerous Cell image">
   </p>
 - **Scalability**: The project is designed to be scalable for future improvements, including the integration of more diverse datasets and the exploration of ensemble methods.
 
@@ -134,10 +151,17 @@ Contributions are welcome! If you have ideas for improving this project or want 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## References
+1. Arnold, M., Morgan, E., Rumgay, H., Mafra, A., Singh, D., Laversanne, M., Vignat, J., Gralow, J. R., Cardoso, F., Siesling, S. et al. (2022). Current and future burden of breast cancer: Global statistics for 2020 and 2040, The Breast 66: 15–23.
 
-1. Arnold, M., Morgan, E., Rumgay, H., et al. (2022). Current and future burden of breast cancer: Global statistics for 2020 and 2040. *The Breast*, 66, 15–23.
-2. Huang, J., Chan, P. S., Lok, V., et al. (2021). Global incidence and mortality of breast cancer: a trend analysis. *Aging (Albany NY)*, 13(4), 5748.
-3. Spanhol, F. A., Oliveira, L. S., Petitjean, C., & Heutte, L. (2016). A Dataset for Breast Cancer Histopathological Image Classification. *IEEE Transactions on Biomedical Engineering*, 63(7), 1455-1462.
+2. Huang, J., Chan, P. S., Lok, V., Chen, X., Ding, H., Jin, Y., Yuan, J., Lao, X.-q., Zheng, Z.-J. and Wong, M. C. (2021). Global incidence and mortality of breast cancer: a trend analysis, Aging (Albany NY) 13(4): 5748. 
+
+3. Hussain, S., Ali, M., Naseem, U., Nezhadmoghadam, F., Jatoi, M. A., Gulliver, T. A. and Tamez-Pe˜na, J. G. (2024). Breast cancer risk prediction using machine learning: a systematic review, Frontiers in Oncology 14: 1343627. 
+
+4. Muller, F. M., Li, E. J., Daube-Witherspoon, M. E., Vanhove, C., Vandenberghe, S., Pantel, A. R. and Karp, J. S. (2024). Deep learning denoising for low-dose dual-tracer protocol with 18f-fgln and 18f-fdg in breast cancer imaging, Annual Meeting of the Society of Nuclear Medicine and Molecular Imaging.
+
+5. FA Spanhol, LS Oliveira, C. Petitjean and L. Heutte, "A Dataset for Breast Cancer Histopathological Image Classification," in IEEE Transactions on Biomedical Engineering, vol. 63, no. 7, pp. 1455-1462, July 2016, doi: 10.1109 / TBME.2015.2496264.
+
+6. Machine Learning Algorithms For Breast Cancer Prediction And Diagnosis: Mohammed Amine Naji , Sanaa El Filali , Kawtar Aarika , EL Habib Benlahmar , Rachida Ait Abdelouhahid , Olivier Debauche.
 
 ## Data Sources
 
@@ -146,7 +170,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Authors
 
-- **Shivani - 23200782**: Developer and Data Scientist
+- **Shivani - 23200782**: MSc Data and Computational Science, UCD, Dublin
+
+## Demonstration
+
+- Please find the link for the Streamlit Application to test the functionality here: [Prediction of Breast Cancer Incidence] (https://breast-cancer-incidence-prediction-shivs-ucd.streamlit.app)
 
 ## Poster
 
