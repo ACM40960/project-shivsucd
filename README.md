@@ -34,6 +34,7 @@ Welcome to the **Prediction of Breast Cancer Incidence** project repository! Thi
 - [License](#license)
 - [References](#references)
 - [Data Sources](#data-sources)
+- [Conclusion and Future Work](#conclusion-and-future-work)
 - [Authors](#authors)
 - [Streamlit Demonstration of the Project](#demonstration)
 - [Poster](#poster)
@@ -54,9 +55,6 @@ By analyzing the visual characteristics of cell structures and applying deep lea
   </p>
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/newplot.png" alt="Scatter Plots of Symmetry, Fractal Dimension, and Concavity">
-  </p>
-  <p align="center">
-    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/newplot (1).png" alt="Symmetry, Fractal Dimension, and Concavity measures by Diagnosis">
   </p>
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/12.png" alt="Perimeter, Smoothness, and Texture measures by Diagnosis">
@@ -160,6 +158,13 @@ You can run these notebooks in Jupyter Notebook or any other compatible environm
      <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/styled_table.png" alt="Styled Table of all metrics">
    </p>
 
+## Conclusion and Future Work
+This project demonstrates the potential of machine learning and deep learning models in accurately predicting breast cancer. The DenseNet-based CNN achieved a commendable training accuracy of 96.4% on the BreaKHis dataset, and the Random Forest model emerged as the best-performing model on the Wisconsin dataset with an accuracy of 96.49%. These results highlight the efficacy of advanced algorithms in distinguishing between benign and malignant cases, providing valuable support in medical diagnosis. 
+
+However, the variability in model performance across different datasets emphasizes the importance of dataset-specific model selection and further model refinement for clinical applications.
+
+Future work could focus on integrating more diverse datasets and exploring ensemble methods to enhance model robustness and generalization.
+
 ## Contributing
 
 Contributions are welcome! If you have ideas for improving this project or want to add more models or datasets, feel free to submit a pull request or open an issue.
@@ -195,7 +200,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 - A Streamlit application is deployed that allows you to perform Image Analysis and Cell Nuclei Analysis.
     - To perform Image Analysis, **double click** on **Image Analysis Button** and it will take you to the Image upload section.
     - Download test images from : [Images](https://github.com/ACM40960/project-shivsucd/tree/main/Prediction%20of%20Breast%20Cancer%20Incidence-%20Shivani-23200782/Dataset/BreaKHis%20400X/test_for_upload).
-    - Upload the image from the Training or Test folders in the Breakhis400x folder, and you will see the prediction at the bottom of the page.
+    - Upload the benign or malignant image from the Test folder above, and you will see the prediction at the bottom of the page.
     - Scroll back up to the page, and click on the **X** button just below the upload button to erase the uploaded image, and upload more images, or double click on the home button to return home.
     - To Perform Cell Nuclei Measurements predictions on the Wisconsin dataset, **double click** on **Cell Nuclei Analysis**. Use the slider to slide and adjust the value of the measurements shown, and observe the change in the prediction on the page. The model being used in the Random Forest Model, thus selected as the best model, upon analysis.
  
@@ -204,3 +209,5 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## Poster
 
 Please review the poster presented at the University for the Poster Presentation here:[Poster](https://github.com/ACM40960/project-shivsucd/tree/main/Prediction%20of%20Breast%20Cancer%20Incidence-%20Shivani-23200782/images/Final_Poster_23200782.pdf).
+
+
