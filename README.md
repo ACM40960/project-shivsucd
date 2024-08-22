@@ -66,12 +66,12 @@ By analyzing the visual characteristics of cell structures and applying deep lea
   </p>
 
 - **Exploratory Data Analysis**: Detailed Exploratory data analysis on the BreaHis400x Dataset has been performed as shown below:
-  ### Non-Cancerous Cell Image
+  #### Non-Cancerous Cell Image
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Finalized_Benign.png" alt="Non-Cancerous Cell Image">
   </p>
   
-  ### Cancerous Cell Image
+  #### Cancerous Cell Image
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Finalized_Malignant.png" alt="Cancerous Cell image">
   </p>
@@ -79,33 +79,35 @@ By analyzing the visual characteristics of cell structures and applying deep lea
 
 ## Installation
 
-To get started with this project, clone the repository and install the required dependencies.
+To get started with this project, clone the repository with the following code:
 
 ```bash
-git clone https://github.com/Shivani-23200782/breast-cancer-prediction.git
-cd breast-cancer-prediction
+git clone https://github.com/ACM40960/project-shivsucd.git
+cd Prediction of Breast Cancer Incidence- Shivani-23200782
+```
+Create a Virtual Environment with Python verison 3.12.
+
+To create a virtual environment on Windows OS in Anaconda Command Prompt, you can use the following commands: 
+```bash
+conda create -n breast_cancer_pred python==3.12
+conda activate breast_cancer_pred
+```
+Install the dependencies with the following command: 
+```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-After installation, you can run the notebooks for each dataset:
+After installation, you can run the python notebooks for each dataset:
 
 1. **Wisconsin Dataset**:
    - Open the `Breast_Cancer_classification_wisconsin.ipynb` notebook.
    - Execute all the cells to analyze the Wisconsin dataset using multiple machine learning models.
-
-   <p align="center">
-     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/classification_report.png" alt="Classification Report">
-   </p>
-
+  
 2. **BreaKHis 400X Dataset**:
    - Open the `Breast_cancer_Classification_DenseNet.ipynb` notebook.
    - Execute all the cells to use DenseNet201 to classify breast cancer images.
-
-   <p align="center">
-     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/confusion_matrix.png" alt="Confusion Matrix">
-   </p>
 
 You can run these notebooks in Jupyter Notebook or any other compatible environment.
 
@@ -113,9 +115,6 @@ You can run these notebooks in Jupyter Notebook or any other compatible environm
 
 - **Wisconsin Breast Cancer Dataset**: Contains numeric features derived from fine needle aspirates of breast masses, used for predicting breast cancer diagnosis.
   - Features include radius, texture, and perimeter of cell nuclei.
-  <p align="center">
-    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/accuracy_plot.png" alt="Accuracy Plot">
-  </p>
 - **BreaKHis 400X Dataset**: High-resolution microscopic images of breast tumor tissues categorized into benign and malignant classes.
   - Used to train deep learning models for distinguishing between benign and malignant breast cancer based on visual characteristics.
 
@@ -123,24 +122,43 @@ You can run these notebooks in Jupyter Notebook or any other compatible environm
 
 - **DenseNet201**: A deep convolutional neural network used for classifying images in the BreakHis400x dataset. The model achieved a training accuracy of 96% and a test accuracy of 87.45%.
   <p align="center">
-    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/accuracy_loss.png" alt="Training and Validation Accuracy">
-  </p>
-  <p align="center">
-    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/ROC_Plot.png" alt="ROC Curve">
+    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/densenet.png" alt="Training and Validation Accuracy">
   </p>
 - **Random Forest, Logistic Regression, KNN, Neural Networks**: Various models evaluated on the Wisconsin dataset, with Random Forest emerging as the best performer with an accuracy of 96.49%.
 
 ## Results
 
 - **DenseNet201**: Demonstrated strong classification capabilities on the BreaKHis dataset with a training accuracy of 96%, precision of 0.91, recall of 0.94, and an F1 score of 0.97.
-  <p align="center">
-    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/styled_table.png" alt="Styled Table of Metrics">
-  </p>
-- **Random Forest**: Outperformed other models on the Wisconsin dataset with an accuracy of 96.49%, F1 score of 0.952, and balanced accuracy of 0.958.
 
-<p align="center">
-  <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/styled_classification_report.png" alt="Styled Classification Report">
-</p>
+  #### Confusion Matrix:
+   <p align="center">
+     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/confusion_matrix.png" alt="Confusion Matrix">
+   </p>
+#### Evaluation figures:
+   <p align="center">
+     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/accuracy_plot.png" alt="Accuracy Plot">
+   </p>
+   <p align="center">
+     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/accuracy_loss.png" alt="Loss Accuracy">
+   </p>
+   <p align="center">
+     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/roc_curve.png" alt="ROC-AUC Plot">
+   </p>
+   <p align="center">
+     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/classification_report.png" alt="Classification Report">
+   </p>
+   
+- **Random Forest**: Outperformed other models on the Wisconsin dataset with an accuracy of 96.49%, F1 score of 0.952, Precision of 97.56%, Recall of 93.02%, and a balanced accuracy of 95.8%.
+
+#### Comparative Model Metrics:
+  <p align="center">
+     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/radar_chart.png" alt="Radar Chart of all the metrics">
+   </p>
+   
+ #### Evaluation Metrics Table:
+   <p align="center">
+     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/styled_table.png" alt="Styled Table of all metrics">
+   </p>
 
 ## Contributing
 
@@ -174,6 +192,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Demonstration
 
+- A Streamlit application is deployed that allows you to perform Image Analysis and Cell Nuclei Analysis.
+    - To perform Image Analysis, **double click** on **Image Analysis Button** and it will take you to the Image upload section. Upload the image from the Training or Test folders in the Breakhis400x folder, and you will see the prediction at the bottom of the page.
+    - Scroll back up to the page, and click on the **X** button just below the upload button to erase the uploaded image, and upload more images, or double click on the home button to return home.
+    - To Perform Cell Nuclei Measurements predictions on the Wisconsin dataset, **double click** on **Cell Nuclei Analysis**. Use the slider to slide and adjust the value of the measurements shown, and observe the change in the prediction on the page. The model being used in the Random Forest Model, thus selected as the best model, upon analysis.
+ 
 - Please find the link for the Streamlit Application to test the functionality here: [Prediction of Breast Cancer Incidence] (https://breast-cancer-incidence-prediction-shivs-ucd.streamlit.app)
 
 ## Poster
