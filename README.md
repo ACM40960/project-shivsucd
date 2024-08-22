@@ -192,7 +192,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 - A Streamlit application is deployed that allows you to perform Image Analysis and Cell Nuclei Analysis.
     - To perform Image Analysis, **double click** on **Image Analysis Button** and it will take you to the Image upload section.
     - Download test images from : [Images](https://github.com/ACM40960/project-shivsucd/tree/main/Prediction%20of%20Breast%20Cancer%20Incidence-%20Shivani-23200782/Dataset/BreaKHis%20400X/test_for_upload).
-    - Upload the image from the Training or Test folders in the Breakhis400x folder, and you will see the prediction at the bottom of the page.
+    - Upload the benign or malignant image from the Test folder above, and you will see the prediction at the bottom of the page.
     - Scroll back up to the page, and click on the **X** button just below the upload button to erase the uploaded image, and upload more images, or double click on the home button to return home.
     - To Perform Cell Nuclei Measurements predictions on the Wisconsin dataset, **double click** on **Cell Nuclei Analysis**. Use the slider to slide and adjust the value of the measurements shown, and observe the change in the prediction on the page. The model being used in the Random Forest Model, thus selected as the best model, upon analysis.
  
