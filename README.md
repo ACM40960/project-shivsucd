@@ -56,9 +56,6 @@ By analyzing the visual characteristics of cell structures and applying deep lea
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/newplot.png" alt="Scatter Plots of Symmetry, Fractal Dimension, and Concavity">
   </p>
   <p align="center">
-    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/newplot (1).png" alt="Symmetry, Fractal Dimension, and Concavity measures by Diagnosis">
-  </p>
-  <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/12.png" alt="Perimeter, Smoothness, and Texture measures by Diagnosis">
   </p>
   <p align="center">
