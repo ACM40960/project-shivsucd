@@ -74,16 +74,18 @@ By analyzing the visual characteristics of cell structures and applying deep lea
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Finalized_Malignant.png" alt="Cancerous Cell image">
   </p>
 
-  #### Distribution plot for the Images
+  #### Distribution plot for the Images 
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/results_before_augmentation.png" alt="Distribution of Images Before data Augmentation">
   </p>
 
-- **Data Augmentation** : 
+- **Data Augmentation** : As observed in the above picture, the benign class is heavily imbalanced, which could create a bias in training of the images towards malignancy. In an effort to avoid this, data augmentation is peformed on the benign images by flipping and rotating the benign images existing, and increase the number of images to ensure that the augmented images can aid in better classification. The dataset after the balancing of the dataset is as follows:
 
+#### Distribution plot for the Images after Data Augmentation
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/results_after_augmentation.png" alt="Distribution of Images After data Augmentation">
   </p>
+  
 - **Scalability**: The project is designed to be scalable for future improvements, including the integration of more diverse datasets and the exploration of ensemble methods.
 
 ## Installation
