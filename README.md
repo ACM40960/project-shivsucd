@@ -34,6 +34,7 @@ Welcome to the **Prediction of Breast Cancer Incidence** project repository! Thi
 - [License](#license)
 - [References](#references)
 - [Data Sources](#data-sources)
+- [Conclusion and Future Work](#conclusion-and-future-work)
 - [Authors](#authors)
 - [Streamlit Demonstration of the Project](#demonstration)
 - [Poster](#poster)
@@ -157,6 +158,13 @@ You can run these notebooks in Jupyter Notebook or any other compatible environm
      <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/styled_table.png" alt="Styled Table of all metrics">
    </p>
 
+## Conclusion and Future Work
+This project demonstrates the potential of machine learning and deep learning models in accurately predicting breast cancer. The DenseNet-based CNN achieved a commendable training accuracy of 96.4% on the BreaKHis dataset, and the Random Forest model emerged as the best-performing model on the Wisconsin dataset with an accuracy of 96.49%. These results highlight the efficacy of advanced algorithms in distinguishing between benign and malignant cases, providing valuable support in medical diagnosis. 
+
+However, the variability in model performance across different datasets emphasizes the importance of dataset-specific model selection and further model refinement for clinical applications.
+
+Future work could focus on integrating more diverse datasets and exploring ensemble methods to enhance model robustness and generalization.
+
 ## Contributing
 
 Contributions are welcome! If you have ideas for improving this project or want to add more models or datasets, feel free to submit a pull request or open an issue.
@@ -201,3 +209,5 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## Poster
 
 Please review the poster presented at the University for the Poster Presentation here:[Poster](https://github.com/ACM40960/project-shivsucd/tree/main/Prediction%20of%20Breast%20Cancer%20Incidence-%20Shivani-23200782/images/Final_Poster_23200782.pdf).
+
+
