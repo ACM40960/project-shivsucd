@@ -25,6 +25,7 @@ Welcome to the **Prediction of Breast Cancer Incidence** project repository! Thi
 ## Table of Contents 📑
 - [Project Overview](#project-overview)
 - [Project Highlights](#project-highlights)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Datasets](#datasets)
@@ -49,7 +50,9 @@ By analyzing the visual characteristics of cell structures and applying deep lea
 
 - **Multi-Model Approach**: Various machine learning models including Random Forest, Logistic Regression, K-Nearest Neighbors (KNN), and Neural Networks on the Wisconsin dataset have been evaluated and compared to obtain the best performing model.
 - **Deep Learning with DenseNet**: The DenseNet CNN architecture has been used for classifying images from the BreakHis400x dataset as benign or malignant.
-- **Exploratory Data Analysis**: Detailed Exploratory data analysis on the Wisconsin Dataset has been performed as shown below:
+## Exploratory Data Analysis: 
+
+- **Detailed Exploratory data analysis on the Wisconsin Dataset has been performed as shown below:**
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/correlation_heatmap.png" alt="Correlation Heatmap">
   </p>
@@ -63,7 +66,7 @@ By analyzing the visual characteristics of cell structures and applying deep lea
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/x.png" alt="Distribution Plot of the Target Variable">
   </p>
 
-- **Exploratory Data Analysis**: Detailed Exploratory data analysis on the BreaHis400x Dataset has been performed as shown below:
+- **Detailed Exploratory data analysis on the BreaHis400x Dataset has been performed as shown below:**
   #### Non-Cancerous Cell Image
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Finalized_Benign.png" alt="Non-Cancerous Cell Image">
