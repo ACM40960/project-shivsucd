@@ -73,6 +73,17 @@ By analyzing the visual characteristics of cell structures and applying deep lea
   <p align="center">
     <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/Finalized_Malignant.png" alt="Cancerous Cell image">
   </p>
+
+  #### Distribution plot for the Images
+  <p align="center">
+    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/results_before_augmentation.png" alt="Distribution of Images Before data Augmentation">
+  </p>
+
+- **Data Augmentation** : 
+
+  <p align="center">
+    <img src="Prediction of Breast Cancer Incidence- Shivani-23200782/images/results_after_augmentation.png" alt="Distribution of Images After data Augmentation">
+  </p>
 - **Scalability**: The project is designed to be scalable for future improvements, including the integration of more diverse datasets and the exploration of ensemble methods.
 
 ## Installation
